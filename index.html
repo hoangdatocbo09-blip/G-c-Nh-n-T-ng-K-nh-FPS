@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Góc nhìn từ ống kính FPS</title>
+    <link rel="stylesheet" href="web.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- TOGGLE (CSS ONLY) -->
+<input type="checkbox" id="theme-toggle" hidden>
+
+<header class="header">
+    <div class="logo">
+        <img src="./images/FPS.png" alt="">
+        <span>THE FPS MEMORY</span>
+    </div>
+
+    <nav>
+        <a href="#home">TRANG CHỦ</a>
+        <a href="#about">GIỚI THIỆU</a>
+        <a href="#rules">QUY TRÌNH & THỂ LỆ</a>
+        <a href="#prize">GIẢI THƯỞNG</a>
+    </nav>
+
+    <label for="theme-toggle" class="toggle">
+        <span>🌙</span>
+        <div class="switch"></div>
+        <span>☀️</span>
+    </label>
+</header>
+
+<section id="home" class="hero grid-bg">
+    <div class="hero-content">
+        <!-- TEXT -->
+        <div class="hero-text">
+            <span class="badge">SỰ KIỆN NHIẾP ẢNH CỦA FPS</span>
+            <h1>
+                GÓC NHÌN TỪ<br>
+                <span>ỐNG KÍNH FPS</span>
+            </h1>
+            <p>
+                Khám phá và ghi lại vẻ đẹp cuộc sống thông qua lăng kính<br>
+                và góc nhìn cá nhân độc đáo của chính bạn.
+            </p>
+        </div>
+
+        <!-- IMAGE -->
+        <div class="hero-image">
+            <img src="./images/cônng.png" alt="">
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about grid-bg">
+    <h2>GIỚI <span>THIỆU</span></h2>
+    <p class="about-desc">
+        GÓC NHÌN TỪ ỐNG KÍNH FPS là sân chơi nhiếp ảnh sáng tạo dành cho cộng đồng yêu thích trải nghiệm nhập vai,
+        nhằm khuyến khích việc quan sát và ghi lại vẻ đẹp cuộc sống thông qua lăng kính và góc nhìn của bản thân.
+    </p>
+
+    <div class="about-cards">
+        <div class="card">
+            <div class="icon">👁️</div>
+            <h3>Sáng tạo từ góc nhìn cá nhân</h3>
+            <p>Khuyến khích người tham gia thể hiện câu chuyện, cảm xúc và thông điệp riêng qua từng khung hình.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📷</div>
+            <h3>Tham gia đơn giản</h3>
+            <p>Không giới hạn thiết bị, không yêu cầu kỹ thuật phức tạp, phù hợp với mọi đối tượng.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📊</div>
+            <h3>Bình chọn minh bạch</h3>
+            <p>Các tác phẩm được đăng công khai, cộng đồng cùng tham gia bình chọn và lan tỏa.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🏆</div>
+            <h3>Vinh danh tác phẩm</h3>
+            <p>Những bức ảnh xuất sắc sẽ được ghi nhận và trao giải xứng đáng.</p>
+        </div>
+    </div>
+</section>
+
+<section id="rules" class="about grid-bg">
+    <h2>QUY CHẾ & <span>THỂ LỆ</span></h2>
+
+    <div class="about-cards" style="grid-template-columns: 1fr 1fr; margin-top:60px;">
+
+        <!-- QUY CHẾ THAM GIA -->
+        <div class="card" style="text-align:left;">
+            <h3 style="color:#ffb000; margin-bottom:25px;">
+                📌 QUY CHẾ THAM GIA
+            </h3>
+
+            <ul style="padding-left:18px; line-height:1.8;">
+                <li>
+                    <b>Chụp ảnh:</b> Ảnh nguyên bản, đúng chủ đề,
+                    phù hợp thuần phong mỹ tục.
+                </li>
+                <li>
+                    <b>Gửi bài:</b> Qua Fanpage FPS kèm họ tên,
+                    tên tác phẩm, mô tả ngắn.
+                </li>
+                <li>
+                    <b>Thời gian:</b> Chỉ tính tương tác trong
+                    thời gian diễn ra sự kiện.
+                </li>
+            </ul>
+        </div>
+
+        <!-- THỂ LỆ BÌNH CHỌN -->
+        <div class="card"
+            style="
+                border:1px solid rgba(255,176,0,0.5);
+                box-shadow: 0 0 25px rgba(255,176,0,0.25);
+            ">
+            <h3 style="color:#ffb000; margin-bottom:25px;">
+                📊 THỂ LỆ BÌNH CHỌN
+            </h3>
+
+            <div style="
+                background:rgba(255,176,0,0.15);
+                padding:14px 18px;
+                border-radius:14px;
+                margin-bottom:14px;
+            ">
+                👍 1 lượt cảm xúc = <b>1 điểm</b>
+            </div>
+
+            <div style="
+                background:rgba(255,176,0,0.15);
+                padding:14px 18px;
+                border-radius:14px;
+                margin-bottom:20px;
+            ">
+                🔁 1 lượt chia sẻ (Public) = <b>3 điểm</b>
+            </div>
+
+            <p style="color:#ffb000; font-weight:700;">
+                <center>
+                TỔNG ĐIỂM = 60% Cộng đồng + 40% Chuyên môn
+                </center>
+            </p>
+        </div>
+
+    </div>
+</section>
+<section id="prize" class="about grid-bg">
+    <h2>GIẢI <span>THƯỞNG</span></h2>
+
+    <p class="about-desc">
+        Những tác phẩm xuất sắc nhất sẽ được vinh danh dựa trên
+        bình chọn cộng đồng và đánh giá chuyên môn.
+    </p>
+
+    <div class="about-cards"
+         style="
+            grid-template-columns: repeat(3, 1fr);
+            align-items: end;
+            margin-top:80px;
+         ">
+
+        <!-- 🥈 ẤN TƯỢNG – BẠC -->
+        <div class="card"
+             style="
+                height:320px;
+                margin-top:60px;
+                background: rgba(255,255,255,0.04);
+             ">
+            <div class="icon" style="background:rgba(180,180,180,0.25);">⚡</div>
+            <h3>Ấn tượng</h3>
+            <p>Góc nhìn độc đáo, nội dung nổi bật, tạo cảm xúc mạnh.</p>
+
+            <p style="margin-top:20px; color:#ccc;">
+                🥈 <b>300.000 VNĐ</b>
+            </p>
+        </div>
+
+        <!-- 🥇 ĐƯỢC YÊU THÍCH NHẤT – VÀNG -->
+        <div class="card"
+             style="
+                height:380px;
+                border:1px solid rgba(255,176,0,0.7);
+                box-shadow:0 0 40px rgba(255,176,0,0.45);
+                background: rgba(255,176,0,0.08);
+             ">
+            <div class="icon" style="background:rgba(255,176,0,0.35);">❤️</div>
+            <h3 style="font-size:20px;">Được yêu thích nhất</h3>
+            <p>Tác phẩm có tổng lượt tương tác cao nhất từ cộng đồng.</p>
+
+            <p style="margin-top:24px; color:#ffb000; font-weight:700;">
+                🥇 500.000 VNĐ <br>
+                🎁 Phần quà bí mật
+            </p>
+        </div>
+
+        <!-- 🥉 SÁNG TẠO – ĐỒNG -->
+        <div class="card"
+             style="
+                height:250px;
+                margin-top:90px;
+                background: rgba(255,255,255,0.04);
+             ">
+            <div class="icon" style="background:rgba(205,127,50,0.3);">🎨</div>
+            <h3>Sáng tạo</h3>
+            <p>Ý tưởng mới lạ, cách thể hiện khác biệt, giàu nghệ thuật.</p>
+
+            <p style="margin-top:18px; color:#ccc;">
+                🥉 <b>100.000 VNĐ</b>
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+</body>
+</html>
